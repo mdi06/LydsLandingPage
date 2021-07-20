@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -19,10 +19,10 @@
 
     <title>Document</title>
   </head>
-  <body>
+  <body class="main">
     
-<section class=" container my-2  align-content-center position-relative">
-    <div class="d-flex justify-content-between p-3"> 
+<section class=" container align-content-center position-relative">
+    <div class="d-flex  justify-content-between p-3"> 
         <div class=" ">
           <h4 class=" ls">L/S</h4>
         </div>
@@ -30,16 +30,20 @@
           <h4 class=" p-1 ls">LYDIASWEE</h4>
         </div>
         <div class="">
-          <a href=""><h4>Icon</h4></a>
+          <label >
+            <input type="checkbox">
+            <span class="check"> </span>
+          </label>
         </div>
       </div>
  
   <a href="#"><h4 class="about position-fixed">ABOUT</h4></a>
   <a href="#"><h4 class="contact position-fixed">CONTACT</h4></a>
       
-      <div class="d-flex justify-content-center">
+    <div class="container "> 
+      <div class="d-lg-flex justify-content-evenly">
         
-        <div class="col-xl-5 col-lg-5 col-md-6 col-sm-12  py-3 me-2 flex-wrap">
+        <div class="col-xl-5 col-lg-5 col-md-6 col-sm-12 py-3 flex-wrap">
           <div  class="card border-0">
             <img class="img-fluid img-1" src="./imgs/production 1.png" alt="" />
             <div class="card-header1 "> 
@@ -56,10 +60,10 @@
             </div>
         </div>
 
-        <div class="col-xl-5 col-lg-5 col-md-6 col-sm-12  py-3 ms-2 flex-wrap">
+        <div class="col-xl-5 col-lg-5 col-md-6 col-sm-12  py-3 ms-lg-2 flex-wrap">
           <div  class="card border-0">
             <img class="img-fluid img-2 " src="./imgs/design 1.png" alt="" />
-            <div class="card-header2 "> 
+            <div class="card-header2 d-inline-block "> 
             <h1 class="card-title display-4 position-absolute top-50 start-50 translate-middle">DESIGN</h1>
             </div>
 
@@ -76,7 +80,10 @@
         </div>
         </div>
       </div>
+      </div>
     </section>
     </div>
+   
+    <script src="./index.js"></script>
   </body>
 </html>
